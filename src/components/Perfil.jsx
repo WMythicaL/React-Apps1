@@ -6,7 +6,7 @@ const Perfil = () => {
 
   return (
     <div className="mt-10">
-      <h1 className="text-2xl font-semibold">Perfil del Usuario</h1>
+      <h1 className="text-2xl font-semibold">Perfil</h1>
       <p className="mt-4 text-gray-700">Información personal:</p>
 
       <div className="mt-6 inline-block text-left bg-white shadow p-6 rounded border">

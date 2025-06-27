@@ -17,10 +17,10 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-800">
+    <div className="min-h-screen flex items-center justify-center bg-blue-500">
       <div className="bg-white p-8 rounded-xl shadow-2xl text-center w-full max-w-md">
-        <h1 className="text-4xl font-bold text-gray-700 mb-8 tracking-wide drop-shadow-sm">Sistema de RH</h1>
-        <h1 className="text-2xl font-bold text-gray-800 mb-6">Inicio de sesión</h1>
+        <h1 className="text-3xl font-bold text-black mb-10 tracking-wide drop-shadow-sm">Sistema RRHH</h1>
+        <h1 className="text-2x1 font-bold text-blue-500 mb-6">Inicio de sesión</h1>
         <button
           onClick={handleLogin}
           className="flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 px-6 py-2 rounded-lg hover:shadow-lg transition duration-300 mx-auto"
@@ -34,7 +34,7 @@ const Login = () => {
           </svg>
           Iniciar sesión con Google
         </button>
-        <p className="mt-4 text-sm text-gray-500">powered by Diego Manuel Pérez Estrella</p>
+        <p className="mt-6 text-sm text-gray-500">powered by Diego Pérez</p>
       </div>
     </div>
   );

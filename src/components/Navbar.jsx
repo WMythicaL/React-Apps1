@@ -13,13 +13,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 text-white px-6 py-4 flex justify-between items-center shadow-md">
-      <h1 className="text-xl font-bold">Sistema de RH</h1>
+    <nav className="bg-blue-500 text-white px-6 py-4 flex justify-between items-center shadow-md">
+      <h1 className="text-xl font-bold">Sistema RRHH</h1>
 
       <div className="flex items-center gap-6">
         <div className="flex gap-4">
           <Link to="/dashboard" className="hover:underline">Inicio</Link>
-          <Link to="/dashboard/empleados" className="hover:underline">Empleados</Link>
+          <Link to="/dashboard/empleados" ClassName="hover:underline">Empleados</Link>
           <Link to="/dashboard/perfil" className="hover:underline">Perfil</Link>
         </div>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
             <span className="text-sm">{currentUser.displayName}</span>
             <button
               onClick={handleLogout}
-              className="ml-2 bg-rose-500 hover:bg-rose-600 px-3 py-1 rounded text-sm text-white"
+              className="ml-2 bg-red-500 hover:bg-red-700 px-3 py-1 rounded text-sm text-white"
             >
               Cerrar sesión
             </button>
